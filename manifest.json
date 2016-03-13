@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "longman-to-anki",
+    "version": "1.0.0",
+
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup.html"
+    },
+
+    "content_scripts": [{
+        "matches": ["http://www.ldoceonline.com/*"],
+        "js": ["jquery-2.2.1.min.js", "contentscript.js"],
+        "run_at": "document_end"
+    }]
+}
