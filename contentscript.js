@@ -63,7 +63,8 @@ $(function($) {
         function(request, sender, sendResponse) {
             if (request.message == "dictionaryEntry")
                 sendResponse({
-                    message: composeDictionaryEntry()
+                    message: composeDictionaryEntry(),
+                    quantity: $('.EXAMPLE').length
                 });
         });
 });

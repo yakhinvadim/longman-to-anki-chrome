@@ -4,15 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Popup</title>
-    <style>
-        body {
-            width: 500px
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div id="content">failed to load script</div>
+    <button class="copy-button" data-clipboard-target="#dictionary-entry">Copy to clipboard</button>
+    <div class="copy-message" hidden>Copied!</div>
+    <div class="message">Imported <span class="message__number">0</span> cards</div>
+    <textarea id="dictionary-entry">Failed to load dictionary entry. Try to run on http://www.ldoceonline.com/dictionary/example</textarea>
+    <script src="clipboard.min.js"></script>
     <script src="popup.js"></script>
 </body>
 
