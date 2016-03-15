@@ -64,7 +64,16 @@ $(function($) {
             if (request.message == "dictionaryEntry")
                 sendResponse({
                     message: composeDictionaryEntry(),
-                    quantity: $('.EXAMPLE').length
+                    quantity: $('.EXAMPLE').length,
+                    testResult: getTestResult()
                 });
         });
+
+    // test
+
+    function getTestResult() {
+        var myResult = composeDictionaryEntry();
+        var wantedResult = `<span class="example">He deliberately upset her.</span><br><br><span class="term">deliberately</span>;<span class="definition">done in a way that is intended or planned</span>\r\n<span class="example">He shook his head slowly and deliberately.</span><br><br><span class="term">deliberately</span>;<span class="definition">done or said in a slow careful way</span>\r\n`;
+        return myResult == wantedResult;
+    }
 });

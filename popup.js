@@ -8,6 +8,7 @@ chrome.tabs.query({
     }, function(response) {
         document.querySelector('#dictionary-entry').innerText = response.message;
         document.querySelector('.message__number').innerText = response.quantity;
+        document.querySelector('.test-result').innerText = response.testResult;
     });
 });
 
