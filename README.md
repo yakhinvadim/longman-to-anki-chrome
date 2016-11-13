@@ -1,4 +1,4 @@
-# longman-to-anki
+# longman-to-anki-chrome
 
 Deprecated. Ldoceonline have made a big redesign, so cards created by this program will be broken.
 
