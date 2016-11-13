@@ -1,5 +1,9 @@
 # longman-to-anki
 
+Deprecated. Ldoceonline have made a big redesign, so cards created by this program will be broken.
+
+The same functionality is available in [longman-to-anki](https://github.com/yakhinvadim/longman-to-anki)
+
 ## What is it?
 
 **longman-to-anki** is a chrome extension which helps you learn English words.
