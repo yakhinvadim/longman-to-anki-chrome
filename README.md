@@ -6,7 +6,7 @@ The same functionality is available in [longman-to-anki](https://github.com/yakh
 
 ## What is it?
 
-**longman-to-anki** is a chrome extension which helps you learn English words.
+**longman-to-anki-chrome** is a chrome extension which helps you learn English words.
 Just run it on any vocabulary entry from [Longman english dictionary](http://www.ldoceonline.com/) and get a text, ready to import by [Anki](http://ankisrs.net/index.html) - most popular flash cards software.
 
 ## Install
